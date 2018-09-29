@@ -10,6 +10,24 @@ def home(request):
 def about(request):
     return render(request, 'about.html')
 
+def services(request):
+    return render(request, 'services.html')
+
+def services_details(request):
+    return render(request, 'services_details.html')
+
+def copyright(request):
+    return render(request, 'copyright.html')
+
+def privacypolicy(request):
+    return render(request, 'privacy_policy.html')
+
+def terms(request):
+    return render(request, 'terms&conditions.html')
+
+def cookies(request):
+    return render(request, 'cookies.html')
+
 def contact_form(request):
     if request.POST:
         print('this')

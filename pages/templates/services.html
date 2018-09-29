@@ -1,0 +1,117 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+    <!-- Breadcromb Wrapper Start -->
+<div class="breadcromb-wrapper">
+  <div class="breadcromb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="breadcromb-left">
+          <h3>Services</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="breadcromb-text">
+  <div class="container">
+    <ul>
+      <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>Services</li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>Services</li>
+    </ul>
+  </div>
+</div>
+<!-- Breadcromb Wrapper End -->
+<!-- Inner Page Wrapper Start -->
+<div class="inner-page-wrapper our-services-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="{% static 'images/services-icon1.png' %}" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Electrical Maintenance</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown...</p>
+                <a href="{% url 'services_details' %}">Read More</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="{% static 'images/services-icon2.png' %}" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Lighting and Repair</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown...</p>
+                <a href="{% url 'services_details' %}">Read More</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="{% static 'images/services-icon3.png' %}" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Electrical Installation</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown...</p>
+                <a href="{% url 'services_details' %}">Read More</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="{% static 'images/services-icon4.png' %}" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Air Conditioning</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown...</p>
+                <a href="{% url 'services_details' %}">Read More</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="{% static 'images/services-icon5.png' %}" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Electrical Safety</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown...</p>
+                <a href="{% url 'services_details' %}">Read More</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="single-service">
+          <div class="single-services">
+            <div class="services-inner">
+              <div class="our-services-icon"> <span><img src="{% static 'images/services-icon6.png' %}" alt=""></span></div>
+              <div class="our-services-text">
+                <h3>Electrical Upgrades</h3>
+                <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown...</p>
+                <a href="{% url 'services_details' %}">Read More</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Inner Page Wrapper End -->
+
+{% endblock %}

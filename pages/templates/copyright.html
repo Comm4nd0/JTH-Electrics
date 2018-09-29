@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+    <!-- Breadcromb Wrapper Start -->
+<div class="breadcromb-wrapper">
+  <div class="breadcromb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="breadcromb-left">
+          <h3>Copyright</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="breadcromb-text">
+  <div class="container">
+    <ul>
+      <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>Copyright</li>
+    </ul>
+  </div>
+</div>
+<!-- Breadcromb Wrapper End -->
+<!-- Inner Page Wrapper Start -->
+<div class="inner-page-wrapper our-services-wrapper">
+  <div class="container">
+    <div class="row">
+        <h2>Copyright</h2>
+      <p>This website and its content is copyright of “Johnny Baldanza” – © Johnny the Hat Electrics.
+          All rights reserved. Any redistribution or reproduction of part or all of the contents in any
+          form is prohibited. You may not, except with our express written permission, distribute or
+          commercially exploit the content. Nor may you transmit it or store it in any other website or
+          other form of electronic retrieval system. Please also read our <a href="{% url 'privacypolicy' %}">privacy policy</a>.</p>
+    </div>
+  </div>
+</div>
+<!-- Inner Page Wrapper End -->
+
+{% endblock %}

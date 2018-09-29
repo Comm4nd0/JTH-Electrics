@@ -18,6 +18,8 @@
 <!-- Owl Carousel -->
 <link href="{% static 'assets/owl-carousel/css/owl.carousel.css' %}" rel="stylesheet">
 <link href="{% static 'assets/owl-carousel/css/owl.theme.css' %}" rel="stylesheet">
+    <!-- Owl Carousel -->
+<link href="{% static 'assets/pgw-slider/css/pgw-css.css' %}" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="{% static 'css/style.css' %}" rel="stylesheet">
 <!-- Animate CSS -->
@@ -45,7 +47,7 @@
         <div class="col-lg-5 col-md-6 hidden-sm">
           <div class="top-header-add">
             <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i><span>Call</span> 07958 251036</div>
-            <div class="book"><a href="javascript:void(0)"><i class="fa fa-globe" aria-hidden="true"></i><span>Contact us</span></a></div>
+            <div class="book"><a href="{%  url 'contact' %}"><i class="fa fa-globe" aria-hidden="true"></i><span>Contact us</span></a></div>
           </div>
         </div>
       </div>
@@ -67,8 +69,8 @@
                 <li><a href="{% url 'about' %}">About US</a></li>
                 <li><a href="#">Services<i class="fa fa-circle"></i></a>
                   <ul class="dropdown">
-                    <li><a href="services.html">Services</a></li>
-{#                    <li><a href="service-details.html">Service details</a></li>#}
+                    <li><a href="{% url 'services' %}">Services</a></li>
+                    <li><a href="{% url 'services_details' %}">Service details</a></li>
                   </ul>
                 </li>
 {#                <li><a href="#">Pages<i class="fa fa-circle"></i></a>#}
@@ -131,7 +133,6 @@
             <p class="intro-content"><strong>Self Employed Tradesman</strong></p>
             <p class="intro-content">Policy Policy Number 97SEP3158296
                 <br>City & Guilds Level 2 & Level 3</p>
-</p>
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
@@ -139,10 +140,10 @@
           <h4 class="title">Information</h4>
           <div class="extralinks-cols">
             <ul class="extralinks-col">
-              <li> <a href="javascript:void(0)">Copyright</a> </li>
-              <li> <a href="javascript:void(0)">Privacy Policy</a> </li>
-              <li> <a href="javascript:void(0)">Terms & Conditions</a> </li>
-              <li> <a href="javascript:void(0)">Cookies</a></li>
+              <li> <a href="{% url 'copyright' %}">Copyright</a> </li>
+              <li> <a href="{% url 'privacypolicy' %}">Privacy Policy</a> </li>
+              <li> <a href="{% url 'terms' %}">Terms & Conditions</a> </li>
+              <li> <a href="{% url 'cookies' %}">Cookies</a></li>
 {#              <li> <a href="javascript:void(0)">Orders and Returns</a></li>#}
             </ul>
           </div>
@@ -181,9 +182,9 @@
       <div class="col-sm-9">
 	    <img src="{% static 'images/footer-cta-icon.png' %}" alt="">
         <h3>Do you need any help for electrical maintenance?</h3>
-        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <p>Feel free to contact us any time!</p>
       </div>
-      <div class="col-sm-3"> <a href="javascript:void(0)" class="pull-right">Get A Quote</a> </div>
+      <div class="col-sm-3"> <a href="{% url 'contact' %}" class="pull-right">Contact Us</a> </div>
     </div>
 	</div>
   </div>
@@ -217,6 +218,7 @@
 <script src="{% static 'assets/jquery/slicknav.min.js' %}"></script>
 <script src="{% static 'assets/bootstrap/js/bootstrap.min.js' %}"></script>
 <script src="{% static 'assets/number-animation/jquery.animateNumber.min.js' %}"></script>
+<script src="{% static 'assets/pgw-slider/js/pgw-js.js' %}"></script>
 <script src="{% static 'assets/owl-carousel/js/owl.carousel.js' %}"></script>
 <script src="{% static 'assets/wow/wow.min.js' %}"></script>
 <script src="{% static 'assets/jquery/slider.js' %}"></script>

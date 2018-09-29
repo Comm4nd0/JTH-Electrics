@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c5efde-11bc-48a0-9e34-5910250a84d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/templates/cookies.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/templates/copyright.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/templates/privacy_policy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/templates/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/templates/services_details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/templates/terms&amp;conditions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/admin.py" afterDir="false" />
@@ -29,21 +34,10 @@
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/templates/products/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/templates/products/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jth.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jth/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jth/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jth/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jth/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jth/static/images/footer-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jth/static/images/footer-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jth/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jth/static/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jth/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jth/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jth/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/electricshop-html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electricshop-html/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../p4t/.idea/p4t.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../p4t/.idea/p4t.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../p4t/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p4t/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -105,64 +99,83 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50702506">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="441" column="78" selection-start-line="441" selection-start-column="78" selection-end-line="441" selection-end-column="78" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/jth/templates/base.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="848">
-                  <caret line="276" selection-start-line="276" selection-end-line="276" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../p4t/paws4thought/templates/home.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="534">
-                  <caret line="230" column="29" lean-forward="true" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../p4t/p4t/templates/base.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jth/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="186" column="88" selection-start-line="186" selection-start-column="88" selection-end-line="186" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="terms&amp;conditions.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/terms&amp;conditions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="683">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cookies.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/cookies.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="65" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copyright.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/templates/copyright.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="privacy_policy.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/privacy_policy.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="32" column="539" selection-start-line="32" selection-start-column="539" selection-end-line="32" selection-end-column="539" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services_details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/templates/services_details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jth/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -186,11 +199,17 @@
         <option value="$PROJECT_DIR$/contact/views.py" />
         <option value="$PROJECT_DIR$/contact/urls.py" />
         <option value="$PROJECT_DIR$/contact/templates/contact.html" />
-        <option value="$PROJECT_DIR$/jth/urls.py" />
         <option value="$PROJECT_DIR$/pages/templates/about.html" />
-        <option value="$PROJECT_DIR$/jth/templates/base.html" />
         <option value="$PROJECT_DIR$/pages/templates/home.html" />
+        <option value="$PROJECT_DIR$/pages/templates/services_details.html" />
+        <option value="$PROJECT_DIR$/pages/templates/services.html" />
+        <option value="$PROJECT_DIR$/pages/templates/terms&amp;conditions.html" />
+        <option value="$PROJECT_DIR$/pages/templates/cookies.html" />
         <option value="$PROJECT_DIR$/pages/views.py" />
+        <option value="$PROJECT_DIR$/jth/urls.py" />
+        <option value="$PROJECT_DIR$/jth/templates/base.html" />
+        <option value="$PROJECT_DIR$/pages/templates/privacy_policy.html" />
+        <option value="$PROJECT_DIR$/pages/templates/copyright.html" />
       </list>
     </option>
   </component>
@@ -242,32 +261,7 @@
             <path>
               <item name="jth" type="b2602c69:ProjectViewProjectNode" />
               <item name="jth" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p4t" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p4t" type="462c0819:PsiDirectoryNode" />
-              <item name="p4t" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p4t" type="462c0819:PsiDirectoryNode" />
-              <item name="p4t" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p4t" type="462c0819:PsiDirectoryNode" />
-              <item name="paws4thought" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="p4t" type="462c0819:PsiDirectoryNode" />
-              <item name="paws4thought" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -353,7 +347,7 @@
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14739583" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14739583" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -503,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
@@ -527,6 +514,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/electricshop-html/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="210" column="32" lean-forward="true" selection-start-line="100" selection-end-line="210" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/electricshop-html/service-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/services.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="12" lean-forward="true" selection-end-line="116" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="455" selection-start-line="455" selection-end-line="455" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../p4t/paws4thought/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="242" column="19" lean-forward="true" selection-start-line="242" selection-start-column="19" selection-end-line="242" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../p4t/p4t/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -534,34 +556,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../p4t/paws4thought/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/pages/templates/services_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="230" column="29" lean-forward="true" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jth/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="848">
-          <caret line="276" selection-start-line="276" selection-end-line="276" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="441" column="78" selection-start-line="441" selection-start-column="78" selection-end-line="441" selection-end-column="78" />
+        <state relative-caret-position="705">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="186" column="88" selection-start-line="186" selection-start-column="88" selection-end-line="186" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/terms&amp;conditions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/cookies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/privacy_policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="32" column="539" selection-start-line="32" selection-start-column="539" selection-end-line="32" selection-end-column="539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/copyright.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="10" lean-forward="true" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
         </state>
       </provider>
     </entry>
