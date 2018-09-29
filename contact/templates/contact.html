@@ -1,71 +1,113 @@
 {% extends 'base.html' %}
 {% load staticfiles %}
 {% block content %}
-<style>
-    .jumbotron {
-        background: url({{ contact_detail.header_image_1600x660.url }});
-    }
-</style>
-<!-- Section Contact -->
-<section id="contact" class="pages no-padding">
-    <div class="jumbotron" data-stellar-background-ratio="0.5">
-        <!-- Heading -->
-        <div class="jumbo-heading" data-stellar-background-ratio="1.2">
-            <h1>{{ contact_detail.page_title }}</h1>
-        </div>
-    </div>
-    <!-- container -->
-    <div class="container">
-        <div class="row">
-            <!-- Contact Info -->
-            <div class="col-lg-5 col-md-5">
-                <h3>{{ contact_detail.sub_heading }}</h3>
-                <ul class="list-inline">
-                    <li><i class="fa fa-envelope"></i><a href="mailto:youremailaddress">{{ contact_detail.email }}</a></li>
-                    <li><i class="fa fa-phone margin-icon"></i>Call Us {{ contact_detail.landline }}</li>
-                    <li><i class="fa fa-mobile margin-icon"></i>Call Us {{ contact_detail.mobile }}</li>
-                    <li><i class="fa fa-map-marker margin-icon"></i>{{ contact_detail.address }}</li>
-                </ul>
-                <!-- address info -->
-                <p>{{ contact_detail.body|linebreaks }}
-                </p>
-                <img src="{{ contact_detail.image_600x350.url }}" alt="" class="img-rounded center-block img-responsive">
-            </div>
-            <!-- /col-lg-5-->
-            <!-- Contact Form -->
-            <div class="col-lg-6 col-md-6 col-lg-offset-1 col-md-offset-1 res-margin">
-                <h3>{{ contact_detail.form_heading }}</h3>
-                <!-- Form Starts -->
-                <div id="contactForm">
-                    <div class="form-group">
-                        {% csrf_token %}
-                        <label>Name<span class="required">*</span></label>
-                        <input type="text" name="name" id="name" class="form-control input-field" required="">
-                        <label>Email Adress <span class="required">*</span></label>
-                        <input type="email" name="email" id="email" class="form-control input-field" required="">
-                        <label>Subject</label>
-                        <input type="text" name="subject" id="subject" class="form-control input-field" required="">
-                        <label>Message<span class="required">*</span></label>
-                        <textarea name="message" id="message" class="textarea-field form-control" rows="3"
-                                  required=""></textarea>
+    <!-- Breadcromb Wrapper Start -->
+    <div class="breadcromb-wrapper">
+        <div class="breadcromb-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="breadcromb-left">
+                        <h3>Contact</h3>
                     </div>
-                    <button type="submit" id="contactMessage" value="Submit" class="btn center-block">{{ contact_detail.send_button_text }}
-                    </button>
                 </div>
-                <!-- Contact results -->
-                <div id="contact_results"></div>
             </div>
-            <!--/col-lg-6 -->
         </div>
-        <!-- /row-->
     </div>
-    <!-- /container-->
-    <div class="container-fluid margin1">
-        <!-- map-->
-        <div id="map-canvas"></div>
+    <div class="breadcromb-text">
+        <div class="container">
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                <li>Contact</li>
+            </ul>
+        </div>
     </div>
-    <!-- /container-fluid-->
-</section>
-<!-- /Section ends -->
+    <!-- Breadcromb Wrapper End -->
+    <!-- Inner Page Wrapper Start -->
+    <div class="inner-page-wrapper contact-wrapper">
+        <div class="container">
+            <div class="title">
+                <h2>Send a Message</h2>
+                <span class="title-border-color"><i class="fa fa-bolt" aria-hidden="true"></i></span></div>
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 col-xs-offset-0">
+                    <div class="contact-form">
+                        <form method="post" id="contact-form">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input class="con-field" name="name" id="name" required="" placeholder="Name"
+                                           type="text">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="con-field" name="messageForm" required="" id="messageForm"
+                                           placeholder="Subject" type="text">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="con-field" name="phone" required="" id="phone" placeholder="Phone"
+                                           type="text">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="con-field" name="email" required="" id="email" placeholder="Email"
+                                           type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                <textarea class="con-field" name="message" id="message" rows="6"
+                                          placeholder="Your Message"></textarea>
+                                    <div class="submit-area">
+                                        <button class="btn-one">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39727.87222914254!2d-0.6940086943677141!3d51.51336250222403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1537184715732"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <div class="contact-info-main">
+                <div class="container">
+                    <div class="contact-info">
+                        <div class="title">
+                            <h2>Contact Info</h2>
+                            <span class="border"></span>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="contact-box border"><img src="{% static 'images/phone-icon.png' %}" alt="">
+                                    <h3>Phone</h3>
+                                    <p>07958 251036</p>
+                                </div>
+                                <div class="contact-box"><img src="{% static 'images/email-icon.png' %}" alt="">
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:johnnyb@jthelectrics.co.uk">johnnyb@jthelectrics.co.uk</a></p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-4 col-sm-6 hidden-sm hidden-xs">
+                                <div class="contact-box-img"><img src="{% static 'images/contact-us-icon.png' %}" alt=""></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="contact-box border"><img src="{% static 'images/fax-icon.png' %}" alt="">
+                                    <h3>Fax</h3>
+                                    <p>07958 251036</p>
+                                </div>
+                                <div class="contact-box"><img src="{% static 'images/map-icon.png' %}" alt="">
+                                    <h3>Area</h3>
+                                    <p>Maidenhead, Bracknell, Windsor, Ascot, Slough and surrounding
+                                        villages.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Inner Page Wrapper End -->
 
 {% endblock %}

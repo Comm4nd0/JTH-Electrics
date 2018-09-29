@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+    <style>
+.cols {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    -webkit-column-rule: 4px double #000; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px double #000; /* Firefox */
+    column-rule: 4px double #000;
+}
+</style>
+<!-- Breadcromb Wrapper Start -->
+<div class="breadcromb-wrapper">
+  <div class="breadcromb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="breadcromb-left">
+          <h3>About Us</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="breadcromb-text">
+  <div class="container">
+    <ul>
+      <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>About Us</li>
+    </ul>
+  </div>
+</div>
+<!-- Breadcromb Wrapper End -->
+<!-- Inner Page Wrapper Start -->
+<div class="inner-page-wrapper about-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="about-carousel">
+          <div id="about" class="owl-carousel">
+            <div class="item"><img src="{% static 'images/about2.jpeg' %}" alt=""> </div>
+            <div class="item"><img src="{% static 'images/about3.jpeg' %}" alt=""> </div>
+{#            <div class="item"><img src="http://via.placeholder.com/600x340/000/fff" alt=""> </div>#}
+          </div>
+          <div class="about-caption">
+            <h3>Who is JTH Electrics?</h3>
+            <p>Johnny a 17th Edition qualified Maidenhead based electrician has started JTH Electrics having qualified in 2007 having studied and passed the Level 3 exams at High Wycombe College.</p>
+            <ul class="nav nav-tabs">
+              <li class="active show"><a data-target="#menu2" data-toggle="tab" href="#">Our Mission</a></li>
+              <li><a data-toggle="tab" data-target="#menu1" href="#menu1">Our Services</a></li>
+            </ul>
+            <div class="tab-content">
+              <div id="menu2" class="tab-pane fade active in">
+                <h4>Our Mission</h4>
+                <p>JTH Electrics covers all aspects of the job in the domestic environment. Johnny is reliable and trustworthy and always works to the customer’s requirements. Whether it is new light fittings, an extension or a fuse board upgrade. JTH Electrics will do the work to an excellent standard.
+                    <br>JTH Electrics covers Maidenhead, Windsor, Bracknell, Slough and surrounding areas and villages.
+
+JTH Electrics knows that it is important to ensure minimal disruption and that everything is always left clean and tidy.</p>
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <h4>Our Services</h4>
+                <div class="cols">
+                  <ul>
+                      <li>Additional sockets</li>
+                      <li>Circuit board installs</li>
+                      <li>Circuit breaker repairs</li>
+                      <li>Complete and partial rewiring</li>
+                      <li>Consumer unit replacements</li>
+                      <li>Cooker points</li>
+                      <li>Earthing ports and bonding</li>
+                      <li>Electric heaters</li>
+                      <li>Electric radiators</li>
+                      <li>Electrical fault finding</li>
+                      <li>Electrical repairs</li>
+                      <li>Emergency lighting</li>
+                      <li>External lighting</li>
+                      <li>Fuse box replacements</li>
+
+                      <li>Fused spurs</li>
+                      <li>Garden lighting</li>
+                      <li>Lighting design</li>
+                      <li>Lighting installations</li>
+                      <li>Lighting repair</li>
+                      <li>Lighting-low voltage</li>
+                      <li>Power shower installations</li>
+                      <li>Rewiring</li>
+                      <li>Security lighting</li>
+                      <li>Sockets</li>
+                      <li>Switches</li>
+                      <li>Towel rails</li>
+                      <li>Transformers</li>
+                      <li>Tripping circuits</li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="faq-area">
+          <h3>Frequently Asked Question</h3>
+          <div class="about-faq-wrapper">
+            <div class="panel-group panel-faq" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading active" role="tab" id="heading1">
+                  <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1" class="collapsed">Lorem Ipsum is simply dummy text of the printing?</a> </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1" aria-expanded="false">
+                  <div class="panel-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book when an unknown printer took a galley.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">Lorem Ipsum is simply dummy text of the printing? </a> </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2" aria-expanded="false">
+                  <div class="panel-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book when an unknown printer took a galley.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">Lorem Ipsum is simply dummy text of the printing? </a> </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3" aria-expanded="false">
+                  <div class="panel-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book when an unknown printer took a galley.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading4">
+                  <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">Lorem Ipsum is simply dummy text of the printing? </a> </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4" aria-expanded="false" >
+                  <div class="panel-body">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book when an unknown printer took a galley.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="counters">
+            <div class="row">
+              <div class="col-sm-4 col-xs-6">
+                <div class="counter-box"> <i class="lnr lnr-user"></i>
+                  <div class="number animateNumber" data-num="800">800</div>
+                  <p>Happy Customers</p>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="counter-box"> <i class="lnr lnr-thumbs-up"></i>
+                  <div class="number animateNumber" data-num="30">30</div>
+                  <p>Years Experience</p>
+                </div>
+              </div>
+              <div class="col-sm-4 col-xs-6">
+                <div class="counter-box"> <i class="lnr lnr-star"></i>
+                  <div class="number animateNumber" data-num="350">350</div>
+                  <p>Award Winner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Inner Page Wrapper End -->
+
+{% endblock %}

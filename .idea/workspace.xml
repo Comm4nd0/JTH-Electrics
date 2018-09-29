@@ -2,134 +2,176 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c5efde-11bc-48a0-9e34-5910250a84d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/templates/accounts/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/templates/accounts/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/static/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/static/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/static/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/static/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/product_hunt/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/templates/products/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/templates/products/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jth/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jth/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jth/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jth/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jth/static/images/footer-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jth/static/images/footer-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jth/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/jth/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jth/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jth/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jth/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/electricshop-html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/electricshop-html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../p4t/.idea/p4t.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../p4t/.idea/p4t.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../p4t/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p4t/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1762260060">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="css" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="6" />
-          <entry key="py" value="4" />
+          <entry key="html" value="9" />
+          <entry key="png" value="3" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="6" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="9" />
+          <entry key="Image" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="4" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="css" value="21" />
           <entry key="gitignore" value="4" />
-          <entry key="html" value="58" />
-          <entry key="py" value="130" />
+          <entry key="html" value="410" />
+          <entry key="py" value="234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="58" />
+          <entry key="CSS" value="21" />
+          <entry key="HTML" value="410" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="130" />
+          <entry key="Python" value="234" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../p4t/p4t/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="83" column="129" selection-start-line="83" selection-start-column="112" selection-end-line="83" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jth/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jth/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-              <folding>
-                <marker date="1537172594674" expanded="true" signature="82:87" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jth/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1772">
-              <caret line="447" column="103" selection-start-line="447" selection-start-column="103" selection-end-line="447" selection-end-column="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/electricshop-html/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="555" column="26" selection-start-line="100" selection-end-line="555" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.50702506">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="578">
+                  <caret line="441" column="78" selection-start-line="441" selection-start-column="78" selection-end-line="441" selection-end-column="78" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/jth/templates/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="848">
+                  <caret line="276" selection-start-line="276" selection-end-line="276" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+                  <folding>
+                    <element signature="e#0#35#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../p4t/paws4thought/templates/home.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="534">
+                  <caret line="230" column="29" lean-forward="true" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../p4t/p4t/templates/base.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>slide1</find>
+      <find>social</find>
+      <find>title</find>
+      <find>ul</find>
+      <find>ul</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,12 +179,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jth/urls.py" />
-        <option value="$PROJECT_DIR$/pages/views.py" />
-        <option value="$PROJECT_DIR$/jth/settings.py" />
-        <option value="$PROJECT_DIR$/pages/templates/home.html" />
-        <option value="$PROJECT_DIR$/jth/templates/base.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/templates/electricshop-html/contact.html" />
+        <option value="$PROJECT_DIR$/jth/static/css/style.css" />
+        <option value="$PROJECT_DIR$/jth/settings.py" />
+        <option value="$PROJECT_DIR$/contact/views.py" />
+        <option value="$PROJECT_DIR$/contact/urls.py" />
+        <option value="$PROJECT_DIR$/contact/templates/contact.html" />
+        <option value="$PROJECT_DIR$/jth/urls.py" />
+        <option value="$PROJECT_DIR$/pages/templates/about.html" />
+        <option value="$PROJECT_DIR$/jth/templates/base.html" />
+        <option value="$PROJECT_DIR$/pages/templates/home.html" />
+        <option value="$PROJECT_DIR$/pages/views.py" />
       </list>
     </option>
   </component>
@@ -152,10 +200,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1675" />
-    <option name="width" value="9" />
-    <option name="height" value="1050" />
+    <option name="x" value="1349" />
+    <option name="y" value="121" />
+    <option name="width" value="10" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -163,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,26 +225,70 @@
             </path>
             <path>
               <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jth" type="462c0819:PsiDirectoryNode" />
+              <item name="jth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jth" type="462c0819:PsiDirectoryNode" />
+              <item name="jth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jth" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jth" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
               <item name="p4t" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p4t" type="462c0819:PsiDirectoryNode" />
+              <item name="p4t" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p4t" type="462c0819:PsiDirectoryNode" />
+              <item name="p4t" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p4t" type="462c0819:PsiDirectoryNode" />
+              <item name="paws4thought" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p4t" type="462c0819:PsiDirectoryNode" />
+              <item name="paws4thought" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../p4t" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/jth" />
       <recent name="$PROJECT_DIR$/jth/static" />
     </key>
@@ -230,7 +327,6 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
-      <method v="2" />
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -250,27 +346,27 @@
     <frame x="0" y="0" width="1920" height="1046" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14739583" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,26 +376,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../p4t/paws4thought/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="246" selection-start-line="246" selection-end-line="246" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/help-documentation/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../p4t/p4t/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -307,29 +383,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jth/local_settings.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/templates/products/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/static/images/slider-img1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/static/images/slider-img2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/static/images/slider-img3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../p4t/p4t/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/electricshop-html/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <marker date="1537172594674" expanded="true" signature="82:87" ph="..." />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="105" selection-start-line="105" selection-end-line="211" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="842">
+          <caret line="83" column="55" selection-start-line="83" selection-start-column="55" selection-end-line="83" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -340,38 +458,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jth/settings.py">
+    <entry file="file://$PROJECT_DIR$/jth/static/images/banner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/help-documentation/images/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/help-documentation/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/help-documentation/images/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/help-documentation/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/electricshop-html/about-us.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+        <state relative-caret-position="465">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/../p4t/contact/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1772">
-          <caret line="447" column="103" selection-start-line="447" selection-start-column="103" selection-end-line="447" selection-end-column="103" />
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="3300" column="10" selection-start-line="3300" selection-start-column="7" selection-end-line="3300" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="68" column="32" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../p4t/paws4thought/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../p4t/p4t/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="83" column="129" selection-start-line="83" selection-start-column="112" selection-end-line="83" selection-end-column="129" />
+        <state relative-caret-position="144">
+          <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../p4t/paws4thought/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="230" column="29" lean-forward="true" selection-start-line="230" selection-start-column="29" selection-end-line="230" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jth/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="848">
+          <caret line="276" selection-start-line="276" selection-end-line="276" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/pages/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="578">
+          <caret line="441" column="78" selection-start-line="441" selection-start-column="78" selection-end-line="441" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
