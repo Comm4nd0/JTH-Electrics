@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71c5efde-11bc-48a0-9e34-5910250a84d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/templates/projects.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/templates/single-project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/accounts/admin.py" afterDir="false" />
@@ -31,13 +28,8 @@
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/templates/products/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/templates/products/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../django-tutorial/product_hunt-project/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contact/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jth/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jth/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jth/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jth/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jth/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jth/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../p4t/.idea/p4t.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../p4t/.idea/p4t.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../p4t/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../p4t/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -127,8 +119,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="60">
+              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -136,11 +128,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single-project.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jth/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single-project.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/templates/single-project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="48" selection-start-line="48" selection-end-line="57" selection-end-column="25" />
+            <state relative-caret-position="675">
+              <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -148,8 +152,8 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/templates/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="88" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="88" />
+            <state relative-caret-position="120">
+              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -223,13 +227,13 @@
         <option value="$PROJECT_DIR$/projects/admin.py" />
         <option value="$PROJECT_DIR$/contact/models.py" />
         <option value="$PROJECT_DIR$/contact/admin.py" />
-        <option value="$PROJECT_DIR$/jth/urls.py" />
         <option value="$PROJECT_DIR$/projects/models.py" />
         <option value="$PROJECT_DIR$/projects/templates/projects.html" />
-        <option value="$PROJECT_DIR$/projects/urls.py" />
         <option value="$PROJECT_DIR$/jth/templates/base.html" />
         <option value="$PROJECT_DIR$/projects/views.py" />
         <option value="$PROJECT_DIR$/projects/templates/single-project.html" />
+        <option value="$PROJECT_DIR$/projects/urls.py" />
+        <option value="$PROJECT_DIR$/jth/urls.py" />
       </list>
     </option>
   </component>
@@ -663,13 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jth/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -697,16 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -717,17 +704,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/templates/projects.html">
+    <entry file="file://$PROJECT_DIR$/projects/templates/single-project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="88" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="88" />
+        <state relative-caret-position="675">
+          <caret line="54" column="54" lean-forward="true" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/templates/single-project.html">
+    <entry file="file://$PROJECT_DIR$/projects/templates/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="48" selection-start-line="48" selection-end-line="57" selection-end-column="25" />
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jth/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
