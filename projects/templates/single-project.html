@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+    <!-- Breadcromb Wrapper Start -->
+<div class="breadcromb-wrapper">
+  <div class="breadcromb-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="breadcromb-left">
+          <h3>{{ project.title }}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="breadcromb-text">
+  <div class="container">
+    <ul>
+      <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+        <li><a href="{% url 'services' %}">Services</a></li>
+      <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+      <li>{{ project.title }}</li>
+    </ul>
+  </div>
+</div>
+<!-- Breadcromb Wrapper End -->
+<!-- Inner Page Wrapper Start -->
+<div class="inner-page-wrapper service-details-wrapper">
+  <div class="container">
+
+        <div class="tab-pane fade active in">
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="pgwSlider">
+                  {% for image in project.images.all %}
+                    <li><img src="{{ image.image.url }}" alt="{{ project.title }}"/></li>
+                  {% endfor %}
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="tabs-content-right">
+                <h3>{{ project.title }}</h3>
+                <p>{{ project.body|linebreaks }}</p>
+{#                <h3>Air Condition</h3>#}
+{#                <p>Eque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>#}
+{#                <ul>#}
+{#                  <li>Powerfull HTML5 Template</li>#}
+{#                  <li>Quality Design and more</li>#}
+{#                  <li>Smooth Design</li>#}
+{#                  <li>It's ferfect for any business website</li>#}
+{#                  <li>Powerfull HTML5 Template</li>#}
+{#                  <li>Quality Design and more</li>#}
+{#                  <li>Smooth Design</li>#}
+{#                  <li>It's ferfect for any business website</li>#}
+{#                </ul>#}
+              </div>
+            </div>
+          </div>
+        </div>
+
+  </div>
+</div>
+<!-- Inner Page Wrapper End -->
+
+{% endblock %}

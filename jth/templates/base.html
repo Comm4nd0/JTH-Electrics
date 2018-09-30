@@ -57,7 +57,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-3">
-          <div class="logo"> <a href="/"><img src="{% static 'images/logo.png' %}" alt="#" data-popupalt-original-title="null" title="#"></a> </div>
+          <div class="logo"> <a href="/"><img src="{% static 'images/logo.png' %}" alt="#" data-popupalt-original-title="null" title="#"></a>
+              <img src="{% static 'images/checkatrade.jpg' %}" alt="" style="max-height: 50px"> </div>
           <div class="mobile-menu"></div>
         </div>
         <div class="col-lg-9 col-md-9">
@@ -67,12 +68,13 @@
               <ul id="nav" class="nav menu navbar-nav">
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="{% url 'about' %}">About US</a></li>
-                <li><a href="#">Services<i class="fa fa-circle"></i></a>
-                  <ul class="dropdown">
-                    <li><a href="{% url 'services' %}">Services</a></li>
-                    <li><a href="{% url 'services_details' %}">Service details</a></li>
-                  </ul>
-                </li>
+                  <li><a href="{% url 'services' %}">Services</a></li>
+{#                <li><a href="#">Services<i class="fa fa-circle"></i></a>#}
+{#                  <ul class="dropdown">#}
+{#                    <li><a href="{% url 'services' %}">Services</a></li>#}
+{#                    <li><a href="{% url 'services_details' %}">Service details</a></li>#}
+{#                  </ul>#}
+{#                </li>#}
 {#                <li><a href="#">Pages<i class="fa fa-circle"></i></a>#}
 {#                  <ul class="dropdown">#}
 {#                    <li><a href="about-us.html">About Us</a></li>#}
@@ -84,12 +86,13 @@
 {#                    <li><a href="coming-soon.html">Coming Soon</a></li>#}
 {#                  </ul>#}
 {#                </li>#}
-{#                <li><a href="#">Blog<i class="fa fa-circle"></i></a>#}
+{#                <li><a href="#">Projects<i class="fa fa-circle"></i></a>#}
 {#                  <ul class="dropdown">#}
-{#                    <li><a href="our-blog.html">Our Blog</a></li>#}
+{#                    <li><a href="{% url 'projects' %}">Our Projects</a></li>#}
 {#                    <li><a href="single-blog.html">Single Blog</a></li>#}
 {#                  </ul>#}
 {#                </li>#}
+                  <li><a href="{% url 'projects' %}">Projects</a></li>
                 <li><a href="{% url 'contact' %}">Contact</a></li>
               </ul>
               <!-- End Main Menu -->
@@ -133,6 +136,7 @@
             <p class="intro-content"><strong>Self Employed Tradesman</strong></p>
             <p class="intro-content">Policy Policy Number 97SEP3158296
                 <br>City & Guilds Level 2 & Level 3</p>
+                        <img src="{% static 'images/checkatrade.jpg' %}" alt="">
         </div>
       </div>
       <div class="col-md-3 col-sm-6">
